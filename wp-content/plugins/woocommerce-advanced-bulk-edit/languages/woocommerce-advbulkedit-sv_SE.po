@@ -1,0 +1,845 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Advanced Bulk Edit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-26 15:01+0200\n"
+"PO-Revision-Date: 2015-10-26 15:01+0200\n"
+"Last-Translator: Jimmy <stgbyggab@gmail.com>\n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: sv_SE\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-SearchPath-0: ../../plugins/woocommerce-advanced-bulk-edit\n"
+"X-Poedit-SearchPath-1: bulkedit.php\n"
+
+#: bulkedit.php:132 bulkedit.php:134
+msgid "Product Short Description"
+msgstr "Kort beskrivning"
+
+#: bulkedit.php:135 bulkedit.php:137
+msgid "Description"
+msgstr "Beskrivning"
+
+#: bulkedit.php:138 bulkedit.php:140
+msgid "Image"
+msgstr "Bild"
+
+#: bulkedit.php:141 bulkedit.php:143
+msgid "Product Gallery"
+msgstr "Bildgalleri"
+
+#: bulkedit.php:144 bulkedit.php:146
+msgid "SKU"
+msgstr "Artikelnr"
+
+#: bulkedit.php:147 bulkedit.php:149
+msgid "Slug"
+msgstr "Slug"
+
+#: bulkedit.php:150 bulkedit.php:152
+msgid "Tags"
+msgstr "Etiketter"
+
+#: bulkedit.php:153 bulkedit.php:155 bulkedit.php:201 bulkedit.php:203
+msgid "Virtual"
+msgstr "Virtuell"
+
+#: bulkedit.php:156 bulkedit.php:158 bulkedit.php:204 bulkedit.php:206
+msgid "Downloadable"
+msgstr "Nedladdningsbar"
+
+#: bulkedit.php:159 bulkedit.php:161
+msgid "Title"
+msgstr "Namn"
+
+#: bulkedit.php:162 bulkedit.php:164
+msgid "Categories"
+msgstr "Kategorier"
+
+#: bulkedit.php:165 bulkedit.php:167
+msgid "Regular Price"
+msgstr "Pris"
+
+#: bulkedit.php:168 bulkedit.php:170
+msgid "Sale Price"
+msgstr "Reapris"
+
+#: bulkedit.php:171
+msgid "Default Attributes"
+msgstr "Förvalda attribut"
+
+#: bulkedit.php:173 bulkedit.php:4075
+msgid "Default"
+msgstr "Standard"
+
+#: bulkedit.php:173 bulkedit.php:1506 bulkedit.php:1622 bulkedit.php:4075
+msgid "Attributes"
+msgstr "Attribut"
+
+#: bulkedit.php:174 bulkedit.php:176
+msgid "Product Type"
+msgstr "Produkttyp"
+
+#: bulkedit.php:177 bulkedit.php:179
+msgid "Menu order"
+msgstr "Sorteringsordning"
+
+#: bulkedit.php:180 bulkedit.php:182
+msgid "Enable reviews"
+msgstr "Recensioner?"
+
+#: bulkedit.php:183 bulkedit.php:185
+msgid "Button text"
+msgstr "Köpknapp text"
+
+#: bulkedit.php:186 bulkedit.php:188
+msgid "Product URL"
+msgstr "Produkt URL"
+
+#: bulkedit.php:189 bulkedit.php:191
+msgid "Download Type"
+msgstr "Nedladdningstyp"
+
+#: bulkedit.php:192 bulkedit.php:194
+msgid "Downloadable Files"
+msgstr "Nedladdningsbara filer"
+
+#: bulkedit.php:195 bulkedit.php:197
+msgid "Download Limit"
+msgstr "Nedladdningsgräns"
+
+#: bulkedit.php:198 bulkedit.php:200
+msgid "Download Expiry"
+msgstr "Nedladdning upphör"
+
+#: bulkedit.php:207 bulkedit.php:209
+msgid "Cross-Sells"
+msgstr "Korsförsäljning"
+
+#: bulkedit.php:210 bulkedit.php:212
+msgid "Up-Sells"
+msgstr "Uppförsäljning"
+
+#: bulkedit.php:213 bulkedit.php:215
+msgid "Catalog visibility:"
+msgstr "Synlighet i katalog"
+
+#: bulkedit.php:216 bulkedit.php:218
+msgid "Status"
+msgstr "Status"
+
+#: bulkedit.php:219 bulkedit.php:221
+msgid "Purchase Note"
+msgstr "Köpnotering"
+
+#: bulkedit.php:222 bulkedit.php:224
+msgid "Shipping class"
+msgstr "Fraktklass"
+
+#: bulkedit.php:225 bulkedit.php:227
+msgid "Grouping"
+msgstr "Gruppering"
+
+#: bulkedit.php:228 bulkedit.php:230
+msgid "Sold Individually"
+msgstr "Säljes styckvis"
+
+#: bulkedit.php:231 bulkedit.php:233
+msgid "Allow Backorders?"
+msgstr "Tillåt bokning?"
+
+#: bulkedit.php:234 bulkedit.php:236
+msgid "Manage Stock"
+msgstr "Hantera lager"
+
+#: bulkedit.php:238 bulkedit.php:240
+msgid "Stock Status"
+msgstr "Lagerstatus"
+
+#: bulkedit.php:241 bulkedit.php:243
+msgid "Stock Qty"
+msgstr "Lagersaldo"
+
+#: bulkedit.php:244 bulkedit.php:246
+msgid "Length"
+msgstr "Längd"
+
+#: bulkedit.php:247 bulkedit.php:249
+msgid "Sale end date:"
+msgstr "Rea slutdatum"
+
+#: bulkedit.php:250 bulkedit.php:252
+msgid "Sale start date:"
+msgstr "Rea startdatum"
+
+#: bulkedit.php:253 bulkedit.php:255
+msgid "Tax class"
+msgstr "Momsklass"
+
+#: bulkedit.php:256 bulkedit.php:258
+msgid "Tax Status"
+msgstr "Momsstatus"
+
+#: bulkedit.php:259 bulkedit.php:261
+msgid "Featured"
+msgstr "Utvald"
+
+#: bulkedit.php:262 bulkedit.php:264
+msgid "Width"
+msgstr "Bredd"
+
+#: bulkedit.php:265 bulkedit.php:267
+msgid "Height"
+msgstr "Höjd"
+
+#: bulkedit.php:268 bulkedit.php:270
+msgid "Weight"
+msgstr "Vikt"
+
+#: bulkedit.php:271 bulkedit.php:273
+msgid "Publish Date"
+msgstr "Publiceringsdatum"
+
+#: bulkedit.php:274
+msgid "Variation Description"
+msgstr ""
+
+#: bulkedit.php:275
+msgid "Custom Attributes"
+msgstr "Egna attribut"
+
+#: bulkedit.php:276
+msgid "choose\\search"
+msgstr "välj/sök"
+
+#: bulkedit.php:277
+msgid "Column Settings"
+msgstr "Visa/Dölj fält"
+
+#: bulkedit.php:278
+msgid "Table Views"
+msgstr "Ladda/Spara vy"
+
+#: bulkedit.php:279 bulkedit.php:1071
+msgid "Custom Fields"
+msgstr "Egna fält"
+
+#: bulkedit.php:280 bulkedit.php:1072
+msgid "Find Custom Fields"
+msgstr "Hitta egna fält"
+
+#: bulkedit.php:281 bulkedit.php:1073
+msgid "Plugin Settings"
+msgstr "Inställningar"
+
+#: bulkedit.php:282
+msgid "Main Settings"
+msgstr "Allmänt"
+
+#: bulkedit.php:283
+msgid "Search Fields"
+msgstr "Sökfält"
+
+#: bulkedit.php:284 bulkedit.php:625
+msgid "Collapse Filters -"
+msgstr "Dölj filter -"
+
+#: bulkedit.php:285
+msgid "Expand Filters +"
+msgstr "Visa filter +"
+
+#: bulkedit.php:286
+msgid "Show larger images on hover"
+msgstr "Visa större bild vid hovring"
+
+#: bulkedit.php:287
+msgid "Clicking on image goes straight to edit"
+msgstr "Ändra produktbild vid klickning"
+
+#: bulkedit.php:288
+msgid "remove name"
+msgstr ""
+
+#: bulkedit.php:289
+msgid "remove value"
+msgstr ""
+
+#: bulkedit.php:290
+msgid "To change table view you need to save/revert changes first"
+msgstr ""
+
+#: bulkedit.php:291 bulkedit.php:1053
+msgid "Selected rows for bulk editing"
+msgstr "Antal rader för massredigering"
+
+#: bulkedit.php:292
+msgid "Saving batch"
+msgstr ""
+
+#: bulkedit.php:293
+msgid "Show Selected Only"
+msgstr ""
+
+#: bulkedit.php:294
+msgid "Show All"
+msgstr ""
+
+#: bulkedit.php:295
+msgid "Link all variations"
+msgstr ""
+
+#: bulkedit.php:296
+msgid "Skip duplicate variations on creation"
+msgstr ""
+
+#: bulkedit.php:297 bulkedit.php:299
+msgid "In Stock"
+msgstr "I lager"
+
+#: bulkedit.php:300 bulkedit.php:302 bulkedit.php:566
+msgid "Out of stock"
+msgstr "Slut i lager"
+
+#: bulkedit.php:565
+msgid "In stock"
+msgstr "I lager"
+
+#: bulkedit.php:612
+msgid "Advanced Bulk Edit"
+msgstr "Avancerad Massredigering"
+
+#: bulkedit.php:619
+msgid ""
+"<b>Hint:</b> To show different woocommerce fields use the \"Show/Hide Fields"
+"\" button at the bottom."
+msgstr ""
+
+#: bulkedit.php:619
+msgid "Hide"
+msgstr ""
+
+#: bulkedit.php:622 bulkedit.php:1018
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: bulkedit.php:633 bulkedit.php:845 bulkedit.php:915 bulkedit.php:925
+#: bulkedit.php:2732
+msgid "contains"
+msgstr "innehåller"
+
+#: bulkedit.php:634 bulkedit.php:846 bulkedit.php:916 bulkedit.php:926
+#: bulkedit.php:2733
+msgid "does not contain"
+msgstr "innehåller inte"
+
+#: bulkedit.php:635 bulkedit.php:847 bulkedit.php:917 bulkedit.php:927
+#: bulkedit.php:2734
+msgid "starts with"
+msgstr "börjar med"
+
+#: bulkedit.php:636 bulkedit.php:848 bulkedit.php:918 bulkedit.php:928
+#: bulkedit.php:2735
+msgid "ends with"
+msgstr "slutar med"
+
+#: bulkedit.php:963
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: bulkedit.php:986 bulkedit.php:1566
+msgid "ID"
+msgstr "ID"
+
+#: bulkedit.php:998
+msgid "Get Products"
+msgstr "Hämta produkter"
+
+#: bulkedit.php:1016 bulkedit.php:1617
+msgid "Variations"
+msgstr "Varianter"
+
+#: bulkedit.php:1021
+msgid ""
+"Changes are saved on going to a different page of products, adding products/"
+"variations or via the 'Save Changes' button"
+msgstr ""
+"Ändringar sparas automatiskt vid sidbyte, vid lägga till produkter/varianter "
+"eller via 'Spara ändringar' knappen"
+
+#: bulkedit.php:1029 bulkedit.php:1620 bulkedit.php:1759 bulkedit.php:4304
+#: bulkedit.php:4342
+msgid "add"
+msgstr "lägg till"
+
+#: bulkedit.php:1034 bulkedit.php:1618
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: bulkedit.php:1039 bulkedit.php:1595 bulkedit.php:4151
+msgid "delete"
+msgstr "radera"
+
+#: bulkedit.php:1043
+msgid "Selection Manager"
+msgstr "Välj urval"
+
+#: bulkedit.php:1046
+msgid "Bulk Edit"
+msgstr "Massredigera"
+
+#: bulkedit.php:1050
+msgid "Quick Settings"
+msgstr "Snabbinställningar"
+
+#: bulkedit.php:1061
+msgid "First"
+msgstr "Första"
+
+#: bulkedit.php:1061
+msgid "Previous"
+msgstr "Föregående"
+
+#: bulkedit.php:1061
+msgid "Page"
+msgstr "Sida"
+
+#: bulkedit.php:1061
+msgid "Next"
+msgstr "Nästa"
+
+#: bulkedit.php:1061
+msgid "Total records"
+msgstr "Antal produkter"
+
+#: bulkedit.php:1062
+msgid "Revert to original vaue"
+msgstr "Återställ ursprungligt värde"
+
+#: bulkedit.php:1063
+msgid "Active Cell"
+msgstr "Aktiv cell"
+
+#: bulkedit.php:1064
+msgid "Active Row"
+msgstr "Aktiv rad"
+
+#: bulkedit.php:1065
+msgid "Selected Rows"
+msgstr "Valda rader"
+
+#: bulkedit.php:1066
+msgid "All Rows"
+msgstr ""
+
+#: bulkedit.php:1069
+msgid "Show/Hide Fields"
+msgstr "Visa/Dölj fält"
+
+#: bulkedit.php:1070
+msgid "Load/Save View"
+msgstr "Ladda/Spara vy"
+
+#: bulkedit.php:1074
+msgid "Export to CSV"
+msgstr "Exportera till CSV"
+
+#: bulkedit.php:1078
+msgid "Linked editing"
+msgstr "Länkad redigering"
+
+#: bulkedit.php:1081
+msgid "Manual changes on any selected product will affect all of them"
+msgstr "Ändringar på vald produkt kommer att påverka samtliga produkter"
+
+#: bulkedit.php:1089
+msgid "All products in table"
+msgstr "Alla produkter i tabellen"
+
+#: bulkedit.php:1095
+msgid "Selected products only"
+msgstr "Endast markerade produkter"
+
+#: bulkedit.php:1100
+msgid "Delimiter"
+msgstr "﻿Avgränsare"
+
+#: bulkedit.php:1109
+msgid "Use real meta values"
+msgstr "Använda riktiga meta värden"
+
+#: bulkedit.php:1118
+msgid "Are you sure you want to continue ?"
+msgstr "Är du säker på att du vill fortsätta?"
+
+#: bulkedit.php:1139
+msgid "Limit on product retrieval"
+msgstr "Gräns för produkthämtning"
+
+#: bulkedit.php:1160
+msgid "Save products in batches of"
+msgstr ""
+
+#: bulkedit.php:1176
+msgid "empty for a single ajax query"
+msgstr ""
+
+#: bulkedit.php:1191
+msgid "Do not retrieve total number"
+msgstr "Hämta inte totalt antal information"
+
+#: bulkedit.php:1194
+msgid ""
+"check if you have a large number of products and want to speed up the query"
+msgstr ""
+"välj om du har väldigt många produkter och vill snabba upp frågan mot "
+"databasen"
+
+#: bulkedit.php:1209
+msgid ""
+"Delete images from server/media library when removing from product image/"
+"gallery"
+msgstr ""
+
+#: bulkedit.php:1212
+msgid "This is not revertable ! Use with caution"
+msgstr ""
+
+#: bulkedit.php:1227
+msgid "Retrieve all variations on attribute search"
+msgstr "Hämta alla varianter vid attribut sökning"
+
+#: bulkedit.php:1230
+msgid "if the parent has it"
+msgstr "om förälder har det"
+
+#: bulkedit.php:1246
+msgid "Get all children of selected category on search"
+msgstr "Hämta även underkategorier för kategori vid sökning"
+
+#: bulkedit.php:1265
+msgid "Retrieve all variations on custom taxonomy search"
+msgstr "Hämta alla varianter vid taxonomi sökning"
+
+#: bulkedit.php:1283
+msgid "Disable attribute support"
+msgstr "Inaktivera attribut stöd"
+
+#: bulkedit.php:1303
+msgid "Convert manually to UTF-8"
+msgstr "Konvertera manuellt till UTF-8"
+
+#: bulkedit.php:1322
+msgid "Do not check \"Used for variations\" automatically"
+msgstr "Välj inte \"Används för varianter\" automatiskt"
+
+#: bulkedit.php:1341
+msgid "Call woocommerce action on save"
+msgstr "Kör woocommerce action vid spara"
+
+#: bulkedit.php:1344
+msgid "for better compatibility with third-party cache plugins"
+msgstr "för bättre kompatibilitet med tredje part cache tillägg"
+
+#: bulkedit.php:1360
+msgid "Call save_post action"
+msgstr "Kör save_post action"
+
+#: bulkedit.php:1378
+msgid "Require confirmation on save"
+msgstr "Bekräfta vid Spara"
+
+#: bulkedit.php:1395
+msgid "Disable safety net on edit"
+msgstr "Inaktivera säkerhets-skrivskydd vid redigera"
+
+#: bulkedit.php:1402
+msgid "Choose row height /needs page reload/"
+msgstr "Välj radhöjd /sidan behöver laddas om/"
+
+#: bulkedit.php:1432
+msgid "Set manual search filters height"
+msgstr "Välj manuell höjd på sökfilter"
+
+#: bulkedit.php:1453
+msgid "Set manual table height"
+msgstr "Välj manuell tabellhöjd"
+
+#: bulkedit.php:1484
+msgid "Enable debug mode"
+msgstr "Aktivera debug-läge"
+
+#: bulkedit.php:1520
+msgid "Regular/Sale Price"
+msgstr "Ordinarie/Rea pris"
+
+#: bulkedit.php:1536
+msgid "SKU/Tags"
+msgstr "Artikelnr/Etiketter"
+
+#: bulkedit.php:1550
+msgid "Long/Short Descriptions"
+msgstr "Lång/Kort beskrivning"
+
+#: bulkedit.php:1580
+msgid "Stock Qty/Stock Status"
+msgstr "Lagersaldo/Lagerstatus"
+
+#: bulkedit.php:1589 bulkedit.php:4303 bulkedit.php:4341
+msgid "set new"
+msgstr "välj nytt"
+
+#: bulkedit.php:1590
+msgid "prepend"
+msgstr "lägg till före"
+
+#: bulkedit.php:1591
+msgid "append"
+msgstr "lägg till efter"
+
+#: bulkedit.php:1592
+msgid "replace text"
+msgstr "ersätt text"
+
+#: bulkedit.php:1593
+msgid "Ignore case"
+msgstr "Ignorera skiftläge"
+
+#: bulkedit.php:1594
+msgid "with text"
+msgstr "med text"
+
+#: bulkedit.php:1610 bulkedit.php:1898 bulkedit.php:1932 bulkedit.php:2002
+#: bulkedit.php:2035 bulkedit.php:2068 bulkedit.php:2101 bulkedit.php:2134
+#: bulkedit.php:2398 bulkedit.php:2421 bulkedit.php:2529
+msgid "increase by value"
+msgstr "öka med värde"
+
+#: bulkedit.php:1611 bulkedit.php:1899 bulkedit.php:1933 bulkedit.php:1936
+#: bulkedit.php:2003 bulkedit.php:2036 bulkedit.php:2069 bulkedit.php:2102
+#: bulkedit.php:2135 bulkedit.php:2399 bulkedit.php:2422 bulkedit.php:2530
+msgid "decrease by value"
+msgstr "minska med värdet"
+
+#: bulkedit.php:1612 bulkedit.php:1900 bulkedit.php:1934 bulkedit.php:2004
+#: bulkedit.php:2037 bulkedit.php:2070 bulkedit.php:2103 bulkedit.php:2400
+#: bulkedit.php:2423
+msgid "increase by %"
+msgstr "öka med %"
+
+#: bulkedit.php:1613 bulkedit.php:1901 bulkedit.php:1935 bulkedit.php:1937
+#: bulkedit.php:2005 bulkedit.php:2038 bulkedit.php:2071 bulkedit.php:2104
+#: bulkedit.php:2401 bulkedit.php:2424
+msgid "decrease by %"
+msgstr "minska med %"
+
+#: bulkedit.php:1614
+msgid "Move to Trash"
+msgstr "Flytta till Papperskorgen"
+
+#: bulkedit.php:1615
+msgid "Delete Permanently"
+msgstr "Radera permanent"
+
+#: bulkedit.php:1616
+msgid "Products"
+msgstr "Produkter"
+
+#: bulkedit.php:1619
+msgid "Time(s)"
+msgstr "Gång(er)"
+
+#: bulkedit.php:1621
+msgid ""
+"Note ! - Linked editing is turned on, all new variations will be added to "
+"all of the selected products. A large number of products * variations can "
+"cause a php timeout"
+msgstr ""
+"OBS! - Länkad redigering är aktivt, alla nya varianter kommer läggas till på "
+"samtliga valda produkter. Väldigt många produkt * varianter kan orsaka php "
+"timout"
+
+#: bulkedit.php:1623
+msgid "Select"
+msgstr "Välj"
+
+#: bulkedit.php:1624
+msgid "Bulk Add"
+msgstr "Lägg till flera"
+
+#: bulkedit.php:1625
+msgid "Add Single Variation"
+msgstr "Lägg till en variant"
+
+#: bulkedit.php:1626
+msgid "Selected product does not have any attributes"
+msgstr "Den valda produkten saknar attribut"
+
+#: bulkedit.php:1760 bulkedit.php:4305 bulkedit.php:4343
+msgid "remove"
+msgstr "ta bort"
+
+#: bulkedit.php:1913 bulkedit.php:1946 bulkedit.php:2016 bulkedit.php:2049
+#: bulkedit.php:2082 bulkedit.php:2115
+msgid "no rounding"
+msgstr "ingen avrundning"
+
+#: bulkedit.php:1914 bulkedit.php:1947 bulkedit.php:2017 bulkedit.php:2050
+#: bulkedit.php:2083 bulkedit.php:2116
+msgid "round-up (100)"
+msgstr "runda-upp (100)"
+
+#: bulkedit.php:1915 bulkedit.php:1948 bulkedit.php:2018 bulkedit.php:2051
+#: bulkedit.php:2084 bulkedit.php:2117
+msgid "round-up (10)"
+msgstr "runda-upp (10)"
+
+#: bulkedit.php:1916 bulkedit.php:1949 bulkedit.php:2019 bulkedit.php:2052
+#: bulkedit.php:2085 bulkedit.php:2118
+msgid "round-up (1)"
+msgstr "runda-upp (1)"
+
+#: bulkedit.php:1917 bulkedit.php:1950 bulkedit.php:2020 bulkedit.php:2053
+#: bulkedit.php:2086 bulkedit.php:2119
+msgid "round-up (0.1)"
+msgstr "runda-upp (0.1)"
+
+#: bulkedit.php:1918 bulkedit.php:1951 bulkedit.php:2021 bulkedit.php:2054
+#: bulkedit.php:2087 bulkedit.php:2120
+msgid "round-down (0.1)"
+msgstr "runda-ner (0.1)"
+
+#: bulkedit.php:1919 bulkedit.php:1952 bulkedit.php:2022 bulkedit.php:2055
+#: bulkedit.php:2088 bulkedit.php:2121
+msgid "round-down (1)"
+msgstr "runda-ner (1)"
+
+#: bulkedit.php:1920 bulkedit.php:1953 bulkedit.php:2023 bulkedit.php:2056
+#: bulkedit.php:2089 bulkedit.php:2122
+msgid "round-down (10)"
+msgstr "runda-ner (10)"
+
+#: bulkedit.php:1921 bulkedit.php:1954 bulkedit.php:2024 bulkedit.php:2057
+#: bulkedit.php:2090 bulkedit.php:2123
+msgid "round-down (100)"
+msgstr "runda-ner (100)"
+
+#: bulkedit.php:2705
+msgid "Quick actions"
+msgstr ""
+
+#: bulkedit.php:2706
+msgid "Select all products"
+msgstr ""
+
+#: bulkedit.php:2707
+msgid "Select all variations"
+msgstr ""
+
+#: bulkedit.php:2708
+msgid "Select duplicate products"
+msgstr ""
+
+#: bulkedit.php:2709
+msgid "same title"
+msgstr ""
+
+#: bulkedit.php:2710
+msgid "Select duplicate variations"
+msgstr ""
+
+#: bulkedit.php:2711
+msgid "same attributes"
+msgstr ""
+
+#: bulkedit.php:2716
+msgid "select"
+msgstr "välj"
+
+#: bulkedit.php:2717
+msgid "deselect"
+msgstr "välj bort"
+
+#: bulkedit.php:2720
+msgid "products and variations"
+msgstr "produkter och varianter"
+
+#: bulkedit.php:2721
+msgid "products only"
+msgstr "produkter endast"
+
+#: bulkedit.php:2722
+msgid "variations only"
+msgstr "varianter endast"
+
+#: bulkedit.php:2724
+msgid "which meet"
+msgstr "som uppfyller"
+
+#: bulkedit.php:2726
+msgid "any of the search criteria"
+msgstr "något av följande"
+
+#: bulkedit.php:2727
+msgid "all of the search criteria"
+msgstr "allt av följande"
+
+#: bulkedit.php:2736
+msgid "field is empty"
+msgstr "fältet är tomt"
+
+#: bulkedit.php:4123
+msgid "Save to new view"
+msgstr "Spara som ny vy"
+
+#: bulkedit.php:4130
+msgid "Load existing view"
+msgstr "Ladda befintlig vy"
+
+#: bulkedit.php:4137
+msgid "Save to exisiting view /replace/"
+msgstr "Ersätt till befintlig vy"
+
+#: bulkedit.php:4145
+msgid "Edit View List"
+msgstr "Redigera vylista"
+
+#: bulkedit.php:4148
+msgid "Rename"
+msgstr "Ändra namn"
+
+#: bulkedit.php:4457
+msgid "Add Custom Field"
+msgstr "Lägg till eget fält"
+
+#: bulkedit.php:4461
+msgid "Find custom fields by product ID"
+msgstr "Hitta egna fält efter produkt-ID"
+
+#: bulkedit.php:4461
+msgid "Find"
+msgstr "Hitta"
+
+#: bulkedit.php:4461
+msgid "OR"
+msgstr "ELLER"
+
+#: bulkedit.php:4462
+msgid "Find Taxonomies"
+msgstr "Hitta taxonomier"
+
+#~ msgid "Could not execute query"
+#~ msgstr "Det gick inte att köra frågan"
+
+#~ msgid "(Copy)"
+#~ msgstr "(kopia)"
