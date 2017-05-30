@@ -18,7 +18,7 @@ jQuery(document).ready(function(){
 
 
 function wcml_load_currency( currency, force_switch ){
-    var ajax_loader = jQuery('<img style=\"margin-left:10px;\" width=\"16\" heigth=\"16\" src=\"' + wcml_mc_settings.wcml_spinner +'\" />')
+    var ajax_loader = jQuery('<img class=\"ajax_loader_currency\" style=\"margin-left:10px;\" width=\"16\" heigth=\"16\" src=\"' + wcml_mc_settings.wcml_spinner +'\" />')
     jQuery('.wcml_currency_switcher').attr('disabled', 'disabled');
     jQuery('.wcml_currency_switcher').after();
     ajax_loader.insertAfter(jQuery('.wcml_currency_switcher'));
@@ -53,8 +53,11 @@ function wcml_load_currency( currency, force_switch ){
                 }else{
                     var target_location = window.location.href;
                 }
-
-                window.location = target_location;
+                jQuery('.ajax_loader_currency').remove();
+                //console.log(response);
+                //return false;
+                location.reload();
+                //window.location = target_location;
             }
         }
     });

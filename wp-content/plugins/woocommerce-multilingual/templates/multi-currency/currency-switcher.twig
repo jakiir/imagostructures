@@ -6,6 +6,13 @@
         {% endfor %}
     </select>
 
+    <script>
+    var selected_currency = "{{ selected_currency }}";
+    jQuery(document).ready(function(){
+        jQuery('.wcml_currency_switcher option[value='+selected_currency+']').attr('selected','selected');
+    });
+    </script>
+
 {% else %}
 
     <ul class="wcml_currency_switcher {{ orientation }}">
